@@ -12,7 +12,7 @@ services:
       - "8069:8069"
     volumes:
       - odoo-web-data:/var/lib/odoo
-      - ../odoo15/addons:/workspace/addons
+      - ../odoo15:/workspace/odoo15
     environment:
       - HOST=db
       - USER=odoo
