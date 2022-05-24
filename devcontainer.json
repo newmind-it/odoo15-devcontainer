@@ -8,7 +8,7 @@
     // },
 	"settings": {
 		"files.exclude": {
-			"**/.git": true,
+			"**/.git/**": true,
 			"**/__pycache__/**": true
 		},
 		"files.watcherExclude": {
